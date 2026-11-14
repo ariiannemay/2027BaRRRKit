@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#BaRRR2027 Review Kit — The Ultimate Digital Study System</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Inter Font & FontAwesome -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        barNavy: '#0f172a',
+                        barSlate: '#1e293b',
+                        barGold: '#d97706',
+                        barGoldLight: '#f59e0b',
+                        barCream: '#f8fafc',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc;
+            color: #0f172a;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(226, 232, 240, 0.8);
+        }
+        .glass-dark {
+            background: rgba(15, 23, 42, 0.85);
+            backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 min-h-screen flex flex-col selection:bg-amber-500 selection:text-white">
+
+    <!-- TOP ANNOUNCEMENT BAR -->
+    <div class="bg-gradient-to-r from-amber-600 via-amber-500 to-yellow-600 text-white text-xs sm:text-sm font-medium py-2 px-4 text-center shadow-inner">
+        <span>⚖️ #BaRRR2027 Official Digital Review Kit is Now Open! Secure your bundle today via <a href="http://bit.ly/BaRRR2027Kit" target="_blank" class="underline font-bold hover:text-slate-900 transition">bit.ly/BaRRR2027Kit</a></span>
+    </div>
+
+    <!-- NAVIGATION HEADER -->
+    <header class="sticky top-0 z-50 glass-card shadow-sm border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <!-- Logo & Repo Branding -->
+            <a href="#" class="flex items-center gap-3 group">
+                <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-600 font-bold text-xl shadow-sm group-hover:scale-105 transition">
+                    <i class="fa-solid fa-scale-balanced"></i>
+                </div>
+                <div>
+                    <span class="text-xl font-extrabold tracking-tight text-slate-900">missattycpa</span>
+                    <span class="block text-xs font-semibold text-amber-600 tracking-wider uppercase">repo: 2027BaRRRKit</span>
+                </div>
+            </a>
+
+            <!-- Desktop Nav Links -->
+            <nav class="hidden lg:flex items-center gap-8 text-sm font-semibold text-slate-700">
+                <a href="#packages" class="hover:text-amber-600 transition">Packages</a>
+                <a href="#trackers" class="hover:text-amber-600 transition">Trackers & Web App</a>
+                <a href="#chaircases" class="hover:text-amber-600 transition">Chair Cases</a>
+                <a href="#notebooks" class="hover:text-amber-600 transition">6 Notebooks</a>
+                <a href="#order" class="hover:text-amber-600 transition">Order & Payment</a>
+            </nav>
+
+            <!-- CTA Button -->
+            <div class="flex items-center gap-3">
+                <a href="http://bit.ly/BaRRR2027Kit" target="_blank" class="hidden sm:inline-flex items-center gap-2 bg-gradient-to-r from-amber-600 to-amber-500 hover:from-amber-700 hover:to-amber-600 text-white font-bold px-5 py-2.5 rounded-xl shadow-md hover:shadow-lg transition transform active:scale-95 text-sm">
+                    <i class="fa-solid fa-cart-shopping"></i> Order Now
+                </a>
+                <!-- Mobile menu button -->
+                <button id="menu-btn" class="lg:hidden p-2 rounded-xl text-slate-700 hover:bg-slate-100 focus:outline-none">
+                    <i class="fa-solid fa-bars text-xl"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden lg:hidden glass-card border-t border-slate-200 px-6 py-4 space-y-3">
+            <a href="#packages" class="block font-semibold text-slate-700 hover:text-amber-600">Packages</a>
+            <a href="#trackers" class="block font-semibold text-slate-700 hover:text-amber-600">Trackers & Web App</a>
+            <a href="#chaircases" class="block font-semibold text-slate-700 hover:text-amber-600">Chair Cases</a>
+            <a href="#notebooks" class="block font-semibold text-slate-700 hover:text-amber-600">6 Digital Notebooks</a>
+            <a href="#order" class="block font-semibold text-slate-700 hover:text-amber-600">Order & Payment</a>
+            <div class="pt-2">
+                <a href="http://bit.ly/BaRRR2027Kit" target="_blank" class="w-full text-center inline-block bg-amber-600 text-white font-bold py-3 rounded-xl shadow">
+                    Access bit.ly/BaRRR2027Kit
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="relative overflow-hidden bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 text-white py-20 lg:py-28">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#d97706_1px,transparent_1px)] [background-size:16px_16px]"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center max-w-4xl">
+            <div class="inline-flex items-center gap-2 bg-amber-500/20 border border-amber-500/40 text-amber-400 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-widest mb-6">
+                <i class="fa-solid fa-star">️ #BaRRR2027 Ultimate Digital Ecosystem</i>
+            </div>
+            <h1 class="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight mb-6 leading-tight">
+                Conquer the <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-yellow-200">2027 Bar Exam</span> with Precision.
+            </h1>
+            <p class="text-lg sm:text-xl text-slate-300 mb-10 leading-relaxed font-normal">
+                A focused, distraction-free study system. Featuring multi-device Google Sheets trackers, web apps, high-yield Bar Chair case digests with 5-sentence summaries, and comprehensive syllabus notebooks.
+            </p>
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="#packages" class="w-full sm:w-auto bg-amber-500 hover:bg-amber-600 text-slate-950 font-extrabold px-8 py-4 rounded-2xl shadow-xl transition transform hover:-translate-y-0.5 text-base flex items-center justify-center gap-3">
+                    <i class="fa-solid fa-boxes-stacked"></i> View Packages & Pricing
+                </a>
+                <a href="http://bit.ly/BaRRR2027Kit" target="_blank" class="w-full sm:w-auto glass-dark border border-white/20 hover:bg-white/10 text-white font-bold px-8 py-4 rounded-2xl transition text-base flex items-center justify-center gap-3">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i> bit.ly/BaRRR2027Kit
+                </a>
+            </div>
+
+            <!-- Quick Repo Folder Stats -->
+            <div class="mt-16 grid grid-cols-2 md:grid-cols-4 gap-4 text-left">
+                <div class="glass-dark p-4 rounded-xl border border-white/10">
+                    <div class="text-amber-400 font-bold text-lg">Listing/</div>
+                    <div class="text-xs text-slate-400">5 Tier Packages & GIFs</div>
+                </div>
+                <div class="glass-dark p-4 rounded-xl border border-white/10">
+                    <div class="text-amber-400 font-bold text-lg">Photos/</div>
+                    <div class="text-xs text-slate-400">Trackers, Chair Cases & Previews</div>
+                </div>
+                <div class="glass-dark p-4 rounded-xl border border-white/10">
+                    <div class="text-amber-400 font-bold text-lg">Notebooks/</div>
+                    <div class="text-xs text-slate-400">6 Complete Bar Subjects</div>
+                </div>
+                <div class="glass-dark p-4 rounded-xl border border-white/10">
+                    <div class="text-amber-400 font-bold text-lg">Bank Accounts/</div>
+                    <div class="text-xs text-slate-400">GCash, BPI, Maribank QRs</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PACKAGES & PRICING SECTION -->
+    <section id="packages" class="py-20 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-amber-600 font-bold text-sm tracking-widest uppercase">Listing Folder Assets</span>
+                <h2 class="text-3xl sm:text-5xl font-extrabold text-slate-900 mt-2 mb-4">Packages & Transparent Pricing</h2>
+                <p class="text-slate-600 text-base sm:text-lg">Choose the perfect tier for your bar review workflow, or grab the All-In Bundle for maximum value.</p>
+            </div>
+
+            <!-- Packages Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Package A -->
+                <div class="glass-card rounded-3xl p-8 shadow-md hover:shadow-xl transition border-t-4 border-amber-600 flex flex-col justify-between relative overflow-hidden">
+                    <div class="absolute top-4 right-4 bg-amber-100 text-amber-800 text-xs font-extrabold px-3 py-1 rounded-full uppercase">Best Value · Save ₱98</div>
+                    <div>
+                        <div class="text-xs font-bold text-amber-600 tracking-wider uppercase mb-1">Package A</div>
+                        <h3 class="text-2xl font-extrabold text-slate-900 mb-2">All-In Bundle</h3>
+                        <div class="text-4xl font-black text-slate-900 mb-6">₱249</div>
+                        <ul class="space-y-3 text-sm text-slate-700 mb-8">
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-600"></i> Bar Syllabus Tracker & Planner (Google Sheets & Web App)</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-600"></i> Bar Chair Cases Compilation (Digests & 5-Sentence Summaries)</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-600"></i> Bar Syllabus Notebooks (Google Docs & Printable PDF)</li>
+                        </ul>
+                    </div>
+                    <a href="http://bit.ly/BaRRR2027Kit" target="_blank" class="w-full text-center bg-slate-900 hover:bg-amber-600 text-white font-bold py-3 rounded-xl transition shadow">
+                        Secure Package A
+                    </a>
+                </div>
+
+                <!-- Package B -->
+                <div class="glass-card rounded-3xl p-8 shadow-md hover:shadow-xl transition border-t-4 border-emerald-600 flex flex-col justify-between relative overflow-hidden">
+                    <div class="absolute top-4 right-4 bg-emerald-100 text-emerald-800 text-xs font-extrabold px-3 py-1 rounded-full uppercase">Save up to ₱69</div>
+                    <div>
+                        <div class="text-xs font-bold text-emerald-600 tracking-wider uppercase mb-1">Package B</div>
+                        <h3 class="text-2xl font-extrabold text-slate-900 mb-2">Duo Bundle</h3>
+                        <div class="text-4xl font-black text-slate-900 mb-6">₱179</div>
+                        <p class="text-xs text-slate-500 mb-4 font-medium">*Pick any 2 out of the 3 core tools (Max 2 rule applied)</p>
+                        <ul class="space-y-3 text-sm text-slate-700 mb-8">
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-600"></i> Bar Syllabus Tracker & Planner OR</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-600"></i> Bar Chair Cases Compilation OR</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-600"></i> Bar Syllabus Notebooks</li>
+                        </ul>
+                    </div>
+                    <a href="http://bit.ly/BaRRR2027Kit" target="_blank" class="w-full text-center bg-slate-900 hover:bg-emerald-600 text-white font-bold py-3 rounded-xl transition shadow">
+                        Secure Package B
+                    </a>
+                </div>
+
+                <!-- Package C -->
+                <div class="glass-card rounded-3xl p-8 shadow-md hover:shadow-xl transition border-t-4 border-indigo-600 flex flex-col justify-between">
+                    <div>
+                        <div class="text-xs font-bold text-indigo-600 tracking-wider uppercase mb-1">Package C</div>
+                        <h3 class="text-2xl font-extrabold text-slate-900 mb-2">Tracker Only</h3>
+                        <div class="text-4xl font-black text-slate-900 mb-6">₱129</div>
+                        <ul class="space-y-3 text-sm text-slate-700 mb-8">
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-indigo-600"></i> Subject Progress Tracker</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-indigo-600"></i> Chair Case Checklist & Log</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-indigo-600"></i> Calendar & Daily Planner Dashboard</li>
+                        </ul>
+                    </div>
+                    <a href="http://bit.ly/BaRRR2027Kit" target="_blank" class="w-full text-center bg-slate-900 hover:bg-indigo-600 text-white font-bold py-3 rounded-xl transition shadow">
+                        Secure Package C
+                    </a>
+                </div>
+
+                <!-- Package D -->
+                <div class="glass-card rounded-3xl p-8 shadow-md hover:shadow-xl transition border-t-4 border-amber-500 flex flex-col justify-between">
+                    <div>
+                        <div class="text-xs font-bold text-amber-600 tracking-wider uppercase mb-1">Package D</div>
+                        <h3 class="text-2xl font-extrabold text-slate-900 mb-2">Digests Only</h3>
+                        <div class="text-4xl font-black text-slate-900 mb-6">₱119</div>
+                        <ul class="space-y-3 text-sm text-slate-700 mb-8">
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-600"></i> Case digest collection based on Bar Chair cases</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-600"></i> 1–3 sentence doctrines per case</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-600"></i> Concise 5-sentence summaries</li>
+                        </ul>
+                    </div>
+                    <a href="http://bit.ly/BaRRR2027Kit" target="_blank" class="w-full text-center bg-slate-900 hover:bg-amber-600 text-white font-bold py-3 rounded-xl transition shadow">
+                        Secure Package D
+                    </a>
+                </div>
+
+                <!-- Package E -->
+                <div class="glass-card rounded-3xl p-8 shadow-md hover:shadow-xl transition border-t-4 border-sky-600 flex flex-col justify-between md:col-span-2 lg:col-span-1">
+                    <div>
+                        <div class="text-xs font-bold text-sky-600 tracking-wider uppercase mb-1">Package E</div>
+                        <h3 class="text-2xl font-extrabold text-slate-900 mb-2">Notebooks Only</h3>
+                        <div class="text-4xl font-black text-slate-900 mb-6">₱99</div>
+                        <ul class="space-y-3 text-sm text-slate-700 mb-8">
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-sky-600"></i> Digital Version: Available in Google Docs format</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-sky-600"></i> Printable Version: Clean, formatted PDF version</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-sky-600"></i> Includes Quick Syllabus Checklists</li>
+                        </ul>
+                    </div>
+                    <a href="http://bit.ly/BaRRR2027Kit" target="_blank" class="w-full text-center bg-slate-900 hover:bg-sky-600 text-white font-bold py-3 rounded-xl transition shadow">
+                        Secure Package E
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- INTERACTIVE FEATURE SHOWCASE: TRACKERS & WEB APP -->
+    <section id="trackers" class="py-20 bg-white border-y border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <span class="text-indigo-600 font-bold text-sm tracking-widest uppercase">Photos/ & Videos/ Folders</span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-2 mb-6">Multi-Device Trackers & Web App Dashboard</h2>
+                    <p class="text-slate-600 text-base leading-relaxed mb-6">
+                        Engineered specifically for law students and Bar examinees. Monitor daily review hours, track subject coverage percentages, and log landmark Chair cases seamlessly across Google Sheets and our standalone Web App version.
+                    </p>
+                    <div class="space-y-4 mb-8">
+                        <div class="flex items-start gap-3">
+                            <div class="w-6 h-6 rounded-full bg-indigo-100 text-indigo-700 flex items-center justify-center font-bold text-xs mt-1">✓</div>
+                            <div>
+                                <h4 class="font-bold text-slate-900">Google Sheets Tracker & Calendar</h4>
+                                <p class="text-sm text-slate-600">Offline-ready, automated formula calculations, and dynamic countdown timers for the 3 Bar exam days.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <div class="w-6 h-6 rounded-full bg-indigo-100 text-indigo-700 flex items-center justify-center font-bold text-xs mt-1">✓</div>
+                            <div>
+                                <h4 class="font-bold text-slate-900">Distraction-Free Web App</h4>
+                                <p class="text-sm text-slate-600">Sleek dark-mode interface with manual backup options and instant overview charts.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="http://bit.ly/BaRRR2027Kit" target="_blank" class="inline-flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white font-bold px-6 py-3 rounded-xl shadow transition">
+                        <i class="fa-solid fa-arrow-right"></i> Get Tracker Access
+                    </a>
+                </div>
+
+                <!-- Visual Mockup & Previews -->
+                <div class="space-y-4">
+                    <div class="glass-card p-3 rounded-2xl shadow-lg border border-slate-200">
+                        <img src="https://placehold.co/800x450/0f172a/fbbf24?text=Google+Sheet+Tracker+Dashboard" alt="Google Sheet Tracker Dashboard" class="rounded-xl w-full object-cover shadow-sm" onerror="this.src='https://placehold.co/800x450/1e293b/ffffff?text=Tracker+Dashboard'">
+                        <div class="mt-2 text-xs font-medium text-slate-500 text-center">📁 Photos/Google Sheet Tracker Dashboard.png</div>
+                    </div>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="glass-card p-2 rounded-xl shadow border border-slate-200">
+                            <img src="https://placehold.co/400x250/1e293b/d97706?text=Google+Sheet+Tracker+Calendar" alt="Google Sheet Tracker Calendar" class="rounded-lg w-full object-cover" onerror="this.src='https://placehold.co/400x250/1e293b/ffffff?text=Calendar'">
+                            <div class="mt-1 text-[10px] text-slate-500 text-center truncate">Google Sheet Tracker Calendar.png</div>
+                        </div>
+                        <div class="glass-card p-2 rounded-xl shadow border border-slate-200">
+                            <img src="https://placehold.co/400x250/0f172a/ffffff?text=Web+App+Dashboard" alt="Web App Tracker Dashboard" class="rounded-lg w-full object-cover" onerror="this.src='https://placehold.co/400x250/0f172a/ffffff?text=Web+App'">
+                            <div class="mt-1 text-[10px] text-slate-500 text-center truncate">Web App Tracker Dashboard.png</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- INTERACTIVE FEATURE SHOWCASE: CHAIR CASES -->
+    <section id="chaircases" class="py-20 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <!-- Visual Mockup -->
+                <div class="order-2 lg:order-1 space-y-4">
+                    <div class="glass-card p-3 rounded-2xl shadow-lg border border-slate-200">
+                        <img src="https://placehold.co/800x500/1e293b/ffffff?text=Bar+Chair+Case+Digests+-+Portrait+Content+Page" alt="Bar Chair Case Digests" class="rounded-xl w-full object-cover shadow-sm" onerror="this.src='https://placehold.co/800x500/1e293b/ffffff?text=Chair+Case+Digests'">
+                        <div class="mt-2 text-xs font-medium text-slate-500 text-center">📁 Photos/Bar Chair Case Digests - portrait content page.png</div>
+                    </div>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="glass-card p-2 rounded-xl shadow border border-slate-200">
+                            <img src="https://placehold.co/400x250/0f172a/fbbf24?text=Landscape+Cover" alt="Landscape cover page" class="rounded-lg w-full object-cover">
+                            <div class="mt-1 text-[10px] text-slate-500 text-center truncate">Bar Chair Case Digests - landscape cover page.png</div>
+                        </div>
+                        <div class="glass-card p-2 rounded-xl shadow border border-slate-200">
+                            <img src="https://placehold.co/400x250/0f172a/ffffff?text=Portrait+Cover" alt="Portrait cover page" class="rounded-lg w-full object-cover">
+                            <div class="mt-1 text-[10px] text-slate-500 text-center truncate">Bar Chair Case Digests - portrait cover page.png</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="order-1 lg:order-2">
+                    <span class="text-amber-600 font-bold text-sm tracking-widest uppercase">High-Yield Legal Research</span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-2 mb-6">Bar Chair Case Digests, Doctrines & Summaries</h2>
+                    <p class="text-slate-600 text-base leading-relaxed mb-6">
+                        Landmark jurisprudence penned by Bar Chairpersons structured for rapid retention. Each case is meticulously distilled into sharp 1–3 sentence doctrines followed by concise 5-sentence summaries.
+                    </p>
+                    <div class="space-y-4 mb-8">
+                        <div class="flex items-start gap-3">
+                            <div class="w-6 h-6 rounded-full bg-amber-100 text-amber-700 flex items-center justify-center font-bold text-xs mt-1">✓</div>
+                            <div>
+                                <h4 class="font-bold text-slate-900">Structured Doctrines</h4>
+                                <p class="text-sm text-slate-600">Direct extracts of governing legal principles for exact citation and application.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <div class="w-6 h-6 rounded-full bg-amber-100 text-amber-700 flex items-center justify-center font-bold text-xs mt-1">✓</div>
+                            <div>
+                                <h4 class="font-bold text-slate-900">5-Sentence Summaries</h4>
+                                <p class="text-sm text-slate-600">Quick facts, issue, ruling, and ratio delivered without fluff.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="http://bit.ly/BaRRR2027Kit" target="_blank" class="inline-flex items-center gap-2 bg-amber-600 hover:bg-amber-700 text-white font-bold px-6 py-3 rounded-xl shadow transition">
+                        <i class="fa-solid fa-book-open"></i> Get Chair Cases (₱119)
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NOTEBOOKS FOLDER PREVIEW -->
+    <section id="notebooks" class="py-20 bg-white border-y border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-sky-600 font-bold text-sm tracking-widest uppercase">Notebooks/ Folder Preview</span>
+                <h2 class="text-3xl sm:text-5xl font-extrabold text-slate-900 mt-2 mb-4">All 6 Bar Syllabus Digital Notebooks</h2>
+                <p class="text-slate-600 text-base sm:text-lg">Clean, comprehensive digital notebooks available in editable Google Docs format and printable PDF versions.</p>
+            </div>
+
+            <!-- Notebooks Grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                
+                <!-- CIV -->
+                <div class="glass-card p-6 rounded-2xl shadow-sm hover:shadow-md transition border border-slate-200">
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="text-xs font-extrabold bg-blue-100 text-blue-800 px-3 py-1 rounded-full">Civil Law</span>
+                        <i class="fa-solid fa-book text-blue-600 text-xl"></i>
+                    </div>
+                    <h3 class="font-extrabold text-slate-900 text-lg mb-2">CIV Digital Notebook</h3>
+                    <p class="text-xs text-slate-500 mb-4">Land Titles and Deeds, Persons, Obligations & Contracts, Torts & Damages.</p>
+                    <div class="text-[11px] font-mono text-slate-400 bg-slate-100 p-2 rounded">Notebooks/CIV Digital Notebook</div>
+                </div>
+
+                <!-- COMM-TAX -->
+                <div class="glass-card p-6 rounded-2xl shadow-sm hover:shadow-md transition border border-slate-200">
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="text-xs font-extrabold bg-amber-100 text-amber-800 px-3 py-1 rounded-full">Commercial & Tax</span>
+                        <i class="fa-solid fa-briefcase text-amber-600 text-xl"></i>
+                    </div>
+                    <h3 class="font-extrabold text-slate-900 text-lg mb-2">COMM-TAX Digital Notebook</h3>
+                    <p class="text-xs text-slate-500 mb-4">Corporation Code, Insurance, IP, Banking, and National Internal Revenue Code.</p>
+                    <div class="text-[11px] font-mono text-slate-400 bg-slate-100 p-2 rounded">Notebooks/COMM-TAX Digital Notebook</div>
+                </div>
+
+                <!-- CRIM -->
+                <div class="glass-card p-6 rounded-2xl shadow-sm hover:shadow-md transition border border-slate-200">
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="text-xs font-extrabold bg-rose-100 text-rose-800 px-3 py-1 rounded-full">Criminal Law</span>
+                        <i class="fa-solid fa-gavel text-rose-600 text-xl"></i>
+                    </div>
+                    <h3 class="font-extrabold text-slate-900 text-lg mb-2">CRIM Digital Notebook</h3>
+                    <p class="text-xs text-slate-500 mb-4">Revised Penal Code Book One & Two, Special Penal Laws (10% Bar weight).</p>
+                    <div class="text-[11px] font-mono text-slate-400 bg-slate-100 p-2 rounded">Notebooks/CRIM Digital Notebook</div>
+                </div>
+
+                <!-- LAB -->
+                <div class="glass-card p-6 rounded-2xl shadow-sm hover:shadow-md transition border border-slate-200">
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="text-xs font-extrabold bg-emerald-100 text-emerald-800 px-3 py-1 rounded-full">Labor Law</span>
+                        <i class="fa-solid fa-users-gear text-emerald-600 text-xl"></i>
+                    </div>
+                    <h3 class="font-extrabold text-slate-900 text-lg mb-2">LAB Digital Notebook</h3>
+                    <p class="text-xs text-slate-500 mb-4">Labor Standards, Social Legislation, and Labor Relations (10% Bar weight).</p>
+                    <div class="text-[11px] font-mono text-slate-400 bg-slate-100 p-2 rounded">Notebooks/LAB Digital Notebook</div>
+                </div>
+
+                <!-- POLI -->
+                <div class="glass-card p-6 rounded-2xl shadow-sm hover:shadow-md transition border border-slate-200">
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="text-xs font-extrabold bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full">Political Law</span>
+                        <i class="fa-solid fa-landmark text-yellow-600 text-xl"></i>
+                    </div>
+                    <h3 class="font-extrabold text-slate-900 text-lg mb-2">POLI Digital Notebook</h3>
+                    <p class="text-xs text-slate-500 mb-4">Constitutional Law, Public International Law, Administrative Law (15% Bar weight).</p>
+                    <div class="text-[11px] font-mono text-slate-400 bg-slate-100 p-2 rounded">Notebooks/POLI Digital Notebook</div>
+                </div>
+
+                <!-- REM-ETH -->
+                <div class="glass-card p-6 rounded-2xl shadow-sm hover:shadow-md transition border border-slate-200">
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="text-xs font-extrabold bg-purple-100 text-purple-800 px-3 py-1 rounded-full">Remedial & Ethics</span>
+                        <i class="fa-solid fa-scale-balanced text-purple-600 text-xl"></i>
+                    </div>
+                    <h3 class="font-extrabold text-slate-900 text-lg mb-2">REM-ETH Digital Notebook</h3>
+                    <p class="text-xs text-slate-500 mb-4">Remedial Law, Legal Ethics, and Judicial Ethics with Practical Exercises (25% Bar weight).</p>
+                    <div class="text-[11px] font-mono text-slate-400 bg-slate-100 p-2 rounded">Notebooks/REM-ETH Digital Notebook</div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- HOW TO ORDER & BANK ACCOUNTS SECTION -->
+    <section id="order" class="py-20 bg-slate-900 text-white relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-amber-400 font-bold text-sm tracking-widest uppercase">Bank Accounts/ Folder Previews</span>
+                <h2 class="text-3xl sm:text-5xl font-extrabold mt-2 mb-4">How to Order & Settle Payment</h2>
+                <p class="text-slate-400 text-base sm:text-lg">Follow these 3 simple steps to receive your secure review kit files directly to your Gmail.</p>
+            </div>
+
+            <!-- Steps Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+                <div class="bg-slate-800/80 border border-white/10 p-8 rounded-3xl relative">
+                    <div class="w-12 h-12 bg-amber-500 text-slate-950 font-black rounded-2xl flex items-center justify-center text-xl mb-6 shadow">1</div>
+                    <h3 class="text-xl font-bold mb-2">Access Order Form</h3>
+                    <p class="text-slate-400 text-sm">Visit <a href="http://bit.ly/BaRRR2027Kit" target="_blank" class="text-amber-400 underline font-semibold">bit.ly/BaRRR2027Kit</a> and input your correct Gmail address and contact info.</p>
+                </div>
+                <div class="bg-slate-800/80 border border-white/10 p-8 rounded-3xl relative">
+                    <div class="w-12 h-12 bg-amber-500 text-slate-950 font-black rounded-2xl flex items-center justify-center text-xl mb-6 shadow">2</div>
+                    <h3 class="text-xl font-bold mb-2">Transfer Payment</h3>
+                    <p class="text-slate-400 text-sm">Send the exact amount via GCash, Maribank, or BPI using the official QR codes below, and save your reference number.</p>
+                </div>
+                <div class="bg-slate-800/80 border border-white/10 p-8 rounded-3xl relative">
+                    <div class="w-12 h-12 bg-amber-500 text-slate-950 font-black rounded-2xl flex items-center justify-center text-xl mb-6 shadow">3</div>
+                    <h3 class="text-xl font-bold mb-2">Receive Files (1–3 Days)</h3>
+                    <p class="text-slate-400 text-sm">Upload your screenshot on the form. Your personalized files and Google Drive / Web App access links will be delivered swiftly.</p>
+                </div>
+            </div>
+
+            <!-- Bank Accounts QR Previews & Order Form QR -->
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-16">
+                
+                <!-- GCash -->
+                <div class="bg-slate-800 p-6 rounded-2xl border border-white/10 text-center">
+                    <div class="text-xs font-bold text-amber-400 uppercase mb-3">Bank Accounts/Gcash.JPG</div>
+                    <div class="bg-white p-3 rounded-xl mb-4 inline-block shadow">
+                        <img src="https://placehold.co/200x250/ffffff/0f172a?text=GCash+QR" alt="GCash QR" class="w-40 h-48 object-cover rounded mx-auto" onerror="this.src='https://placehold.co/200x250/1e293b/ffffff?text=GCash'">
+                    </div>
+                    <div class="font-bold text-sm">GCash Transfer</div>
+                </div>
+
+                <!-- BPI -->
+                <div class="bg-slate-800 p-6 rounded-2xl border border-white/10 text-center">
+                    <div class="text-xs font-bold text-amber-400 uppercase mb-3">Bank Accounts/BPI.PNG</div>
+                    <div class="bg-white p-3 rounded-xl mb-4 inline-block shadow">
+                        <img src="https://placehold.co/200x250/ffffff/0f172a?text=BPI+QR" alt="BPI QR" class="w-40 h-48 object-cover rounded mx-auto" onerror="this.src='https://placehold.co/200x250/1e293b/ffffff?text=BPI'">
+                    </div>
+                    <div class="font-bold text-sm">BPI Transfer</div>
+                </div>
+
+                <!-- Maribank -->
+                <div class="bg-slate-800 p-6 rounded-2xl border border-white/10 text-center">
+                    <div class="text-xs font-bold text-amber-400 uppercase mb-3">Bank Accounts/Maribank.PNG</div>
+                    <div class="bg-white p-3 rounded-xl mb-4 inline-block shadow">
+                        <img src="https://placehold.co/200x250/ffffff/0f172a?text=Maribank+QR" alt="Maribank QR" class="w-40 h-48 object-cover rounded mx-auto" onerror="this.src='https://placehold.co/200x250/1e293b/ffffff?text=Maribank'">
+                    </div>
+                    <div class="font-bold text-sm">Maribank Transfer</div>
+                </div>
+
+                <!-- Form QR -->
+                <div class="bg-slate-800 p-6 rounded-2xl border border-white/10 text-center flex flex-col justify-between">
+                    <div>
+                        <div class="text-xs font-bold text-amber-400 uppercase mb-3">QR CODE #BaRRR2027 Order Form</div>
+                        <div class="bg-white p-3 rounded-xl mb-4 inline-block shadow">
+                            <img src="https://placehold.co/200x250/ffffff/0f172a?text=Order+Form+QR" alt="Order Form QR" class="w-40 h-48 object-cover rounded mx-auto" onerror="this.src='https://placehold.co/200x250/1e293b/ffffff?text=Form+QR'">
+                        </div>
+                    </div>
+                    <a href="http://bit.ly/BaRRR2027Kit" target="_blank" class="bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold py-2.5 rounded-xl text-xs uppercase tracking-wider transition">
+                        Open Form
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Main CTA Link Box -->
+            <div class="bg-gradient-to-r from-amber-600 to-amber-500 rounded-3xl p-8 sm:p-12 text-center text-slate-950 shadow-2xl">
+                <h3 class="text-3xl sm:text-4xl font-black mb-4">Ready to Secure Your 2027 Bar Exam Success?</h3>
+                <p class="text-slate-900 font-medium text-base sm:text-lg mb-8 max-w-2xl mx-auto">
+                    Click the link below to access our official order form (case-sensitive link).
+                </p>
+                <a href="http://bit.ly/BaRRR2027Kit" target="_blank" class="inline-flex items-center gap-3 bg-slate-950 hover:bg-slate-900 text-white font-extrabold text-lg px-10 py-5 rounded-2xl shadow-xl transition transform hover:scale-105">
+                    <i class="fa-solid fa-link"></i> bit.ly/BaRRR2027Kit
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- DISCLAIMER SECTION -->
+    <section class="py-12 bg-slate-950 text-slate-400 text-xs sm:text-sm border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
+            <div class="flex items-center justify-center gap-2 text-amber-500 font-bold">
+                <i class="fa-solid fa-shield-halved"></i> Strict Digital Protection & Copyright Policy
+            </div>
+            <p class="max-w-3xl mx-auto leading-relaxed">
+                By accessing, viewing, or downloading these materials from repo <code class="text-slate-200">2027BaRRRKit</code>, you agree that this document is for your personal bar review use only. Unauthorized sharing, distribution, reproduction, or reselling of these digital files—whether for free or for commercial purposes—is strictly prohibited and subject to immediate revocation of access and legal remedies. All rights reserved.
+            </p>
+            <div class="pt-4 border-t border-slate-900 text-slate-500 flex flex-col sm:flex-row items-center justify-between gap-2">
+                <span>© 2026 missattycpa · #BaRRR2027 Review Kit Repository</span>
+                <span>Hosted on GitHub Pages / Web App Preview</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- JavaScript for Mobile Menu Toggle -->
+    <script>
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
